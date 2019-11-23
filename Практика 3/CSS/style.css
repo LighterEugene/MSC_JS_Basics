@@ -1,0 +1,27 @@
+@import url(reset.css);
+
+@keyframes borderLight {
+  from {border: 2px solid red;}
+  to {border: 2px solid blue;}
+}
+.imageBlock img {
+  width: 200px;
+}
+body {
+background-color: lightgrey;
+backgroundImage: ""
+}
+
+.colored {
+width: 300px;
+	height: 300px;	
+	background-color: red;
+}
+
+.shortBio {
+  padding: 10px;
+}
+
+.animated {
+  animation: borderLight 1s linear infinite alternate;
+}
